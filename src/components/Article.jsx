@@ -12,7 +12,7 @@ function Article() {
     <>
       <div
         id="article"
-        className="relative w-full lg:mt-0 flex flex-col lg:flex-row lg:h-[650px] sm:flex-col "
+        className="relative w-full px-2 lg:px-0 lg:mt-0 flex flex-col lg:flex-row lg:h-[650px] sm:flex-col "
       >
         <div className="absolute w-full h-full -skew-y-2 bg-slate-950"></div>
         <div className="absolute right-0 top-0 flex justify-end">

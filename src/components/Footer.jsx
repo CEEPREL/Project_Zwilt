@@ -38,7 +38,7 @@ function Footer() {
             </div>
           </div>
           <div>
-            <h1 className="text-4xl w-[240%] mb-10 font-semibold ">
+            <h1 className="lg:text-4xl text-2xl w-[240%] mb-10 font-semibold ">
               Connecting the right people to the right businesses.
             </h1>
             <div className="flex flex-col lg:flex-row gap-28">
