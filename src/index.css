@@ -1,0 +1,27 @@
+@import url("https://fonts.cdnfonts.com/css/switzer");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Switzer", sans-serif;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes translateX {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-translateX {
+  animation: translateX 10s linear infinite;
+}
