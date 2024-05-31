@@ -67,7 +67,7 @@ function Slider() {
     <div
       onMouseDown={handleMouseDown}
       onMouseUp={handleMouseUp}
-      className="relative flex mt-80 items-center bg-gradient-to-t pl-5 from-indigo-50 to-white w-full h-[800px] overflow-hidden"
+      className="relative flex lg:mt-80 items-center bg-gradient-to-t pl-5 from-indigo-50 to-white w-full h-[800px] overflow-hidden"
     >
       <div
         ref={sliderRef}

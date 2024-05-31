@@ -28,7 +28,7 @@ function Footer() {
               We take complex hiring processes - and simplify them. Connecting
               you to the world's highly qualified talent pool.
             </p>
-            <div className="space-x-4">
+            <div className="flex gap-4 flex-col lg:flex-row space-x-4">
               <button className="px-6 py-2 bg-gray-800 text-white rounded-full">
                 Hire now
               </button>
@@ -37,8 +37,8 @@ function Footer() {
               </button>
             </div>
           </div>
-          <div>
-            <h1 className="lg:text-4xl text-2xl w-[240%] mb-10 font-semibold ">
+          <div className="items-center relative  lg:left-40 flex flex-col">
+            <h1 className="lg:text-4xl ml-5 lg:text-left text-center text-xl w-[250%] mb-10 font-semibold ">
               Connecting the right people to the right businesses.
             </h1>
             <div className="flex flex-col lg:flex-row gap-28">
