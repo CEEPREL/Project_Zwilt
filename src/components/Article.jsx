@@ -18,7 +18,7 @@ function Article() {
         <div className="absolute right-0 top-0 flex justify-end">
           <img src={atro} alt="img" />
         </div>
-        <div className="relative flex flex-col lg:flex-row w-full items-center">
+        <div className="m-2 relative flex flex-col lg:flex-row w-full items-center">
           <div className="relative m-6 lg:m-14 mt-6 flex flex-col w-full lg:w-1/2">
             <h1 className="text-2xl font-bold lg:w-[70%] text-left text-white sm:text-xl lg:text-5xl tracking-wide">
               How it worked for Jason
