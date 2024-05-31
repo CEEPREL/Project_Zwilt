@@ -12,15 +12,15 @@ function Article() {
     <>
       <div
         id="article"
-        className="relative w-full lg:mt-0 flex flex-col lg:flex-row"
+        className="relative w-full lg:mt-0 flex flex-col lg:flex-row lg:h-[650px] sm:flex-col "
       >
         <div className="absolute w-full h-full -skew-y-2 bg-slate-950"></div>
         <div className="absolute right-0 top-0 flex justify-end">
           <img src={atro} alt="img" />
         </div>
-        <div className="relative flex flex-col lg:flex-row w-full">
+        <div className="relative flex flex-col lg:flex-row w-full items-center">
           <div className="relative m-6 lg:m-14 mt-6 flex flex-col w-full lg:w-1/2">
-            <h1 className="text-2xl font-bold text-left text-white sm:text-xl lg:text-5xl tracking-wide">
+            <h1 className="text-2xl font-bold lg:w-[70%] text-left text-white sm:text-xl lg:text-5xl tracking-wide">
               How it worked for Jason
               <span className="inline-block align-middle ml-2">
                 <img
@@ -32,13 +32,13 @@ function Article() {
               at
               <span className="align-middle ml-2">
                 <img
-                  className="inline-block align-middle h-14 w-36"
+                  className="block align-middle h-14 w-36"
                   src={groove}
                   alt="groove"
                 />
               </span>{" "}
             </h1>
-            <p className="mt-5 text-white text-left text-base lg:text-sm">
+            <p className="mt-5 lg:w-[55%] text-white text-left text-base lg:text-sm">
               Zwilt enabled us to deliver on time and they’ve been heavy hitters
               in our corner since.
             </p>
@@ -74,7 +74,7 @@ function Article() {
                 <p className="text-xs text-white">San Francisco</p>
               </div>
             </div>
-            <p className="mt-5 w-full text-sm text-white">
+            <p className="mt-5 lg:w-[65%] text-sm text-white">
               Zwilt enabled us to deliver on time and they’ve been heavy hitters
               in our corner since. Zwilt enabled us to deliver on time and
               they’ve been heavy hitters in our corner since. Zwilt enabled us

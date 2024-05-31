@@ -18,9 +18,8 @@ function Footer() {
         </div>
       </section>
 
-      <footer className="absolute top-80 bg-slate-950 w-full h-[500px] p-16">
+      <footer className="absolute top-80 bg-slate-950 w-full h-[1500px] lg:h-[500px] p-16">
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 px-4 md:px-0">
-          {/* Logo and Description */}
           <div className="col-span-2">
             <div className="flex items-center flex-shrink-0">
               <img className="h-10 w-28 mr-2" src={logo} alt="Logo" />
@@ -42,7 +41,7 @@ function Footer() {
             <h1 className="text-4xl w-[240%] mb-10 font-semibold ">
               Connecting the right people to the right businesses.
             </h1>
-            <div className="flex flex-row gap-28">
+            <div className="flex flex-col lg:flex-row gap-28">
               <div>
                 <h2 className="text-xs mb-4">PLATFORM</h2>
                 <ul className="space-y-2">
